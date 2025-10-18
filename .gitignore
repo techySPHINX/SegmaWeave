@@ -1,0 +1,27 @@
+# Ignore runtime and generated folders at repo root
+logs/
+outputs/
+data/
+
+# Also ignore those folders anywhere in the repo
+**/logs/
+**/outputs/
+**/data/
+
+# Keep placeholder files if you want to track empty directories (uncomment)
+# !logs/.gitkeep
+# !outputs/.gitkeep
+# !data/.gitkeep
+
+# Common extras
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.env
+venv/
+.envrc
+.DS_Store
+.vscode/
+.idea/
